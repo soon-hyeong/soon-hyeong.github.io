@@ -11,10 +11,6 @@ nav{
     border: 1px solid;
     font-family:'Times New Roman', Times, serif;
 }
-nav:hover{
-    
-}
-
 nav ul{
     margin: 0;
     list-style: none;
@@ -27,13 +23,10 @@ nav ul li{
     text-align: center;
     padding:0 10px;
 }
-
 nav li a{
-
     text-decoration: none;
     color: inherit;
 }
-
 nav li a:hover{
     text-decoration: underline;
 }
