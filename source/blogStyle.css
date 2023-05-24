@@ -1,4 +1,28 @@
-nav h1{
+header h1{
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+nav{
+    width: 15%;
+    float: left;
+    border: 1.5px solid;
+    background-color: floralwhite ;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav li{
+    list-style: none;
+    margin: 1em;
+}
+
+nav li a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li a:hover{
+    text-decoration: underline;
 }
