@@ -7,3 +7,13 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+//share button
+.btn--copyUrl {
+    background-color: #27dbc2;
+    color: #fff
+  }
+  .btn--copyUrl:hover {
+    background-color: #11999e;
+    color: #fff
+  }
