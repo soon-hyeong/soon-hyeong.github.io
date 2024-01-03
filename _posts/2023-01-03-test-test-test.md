@@ -5,6 +5,9 @@ categories:
 tags:
   - Blog
   - test
+sitemap:
+  changefreq: daily
+  priority : 1.0
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
