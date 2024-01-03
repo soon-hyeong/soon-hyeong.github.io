@@ -1,9 +1,8 @@
 ---
 title: "test testtest"
-categories:
-  - Blog test
+categories: 
+  - test
 tags:
-  - Blog
   - test
 sitemap:
   changefreq: daily
