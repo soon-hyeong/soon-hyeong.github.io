@@ -125,6 +125,8 @@
               <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
               <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -281,7 +283,9 @@
         <ul>
           
           
-            <li><a href="/java">java ()</a></li>
+            
+              <li><a href="/categories/#java">java (0)</a></li>
+            
           
         </ul>
         
@@ -296,10 +300,9 @@
         <ul>
           
           
-            <li><a href="/etc">etc ()</a></li>
-          
-          
-            <li><a href="/test">test (1)</a></li>
+            
+              <li><a href="/categories/#etc">etc (2)</a></li>
+            
           
         </ul>
         
@@ -333,6 +336,38 @@
         
         <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>http://localhost:4000/etc/test3/</loc>
+      
+        <lastmod>2023-01-05T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+        <priority>1.0</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/etc/test2/</loc>
+      
+        <lastmod>2023-01-05T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+        <priority>1.0</priority>
+      
+
+    </url>
   
     <url>
       <loc>http://localhost:4000/test/test-test-test/</loc>
