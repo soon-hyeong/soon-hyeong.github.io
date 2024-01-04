@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "순형"
+  name             : "주순형"
   avatar           : #
-  bio              : "개발자가 되고 싶어요."
-  location         : "서울, 대한민국"
+  bio              : "개발자가 되고 싶삽싸리와용."
+  location         :
   email            :
   links:
     - label: "Email"
@@ -289,16 +289,18 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true 
-      sidebar:        # 추가한 부분
-        nav: "sidebar-category" # 추가한 부분
+      related: true
+      toc: true
+      toc_sticky: true
+      sidebar:                  #사이드바 네비게이션 추가
+        nav: "sidebar-category" #사이드바 네비게이션 추가
 
-  # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
+  # _pages                      : 페이지 설정 추가
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-      sidebar:        # 추가한 부분
-        nav: "sidebar-category" # 추가한 부분
+      sidebar:
+        nav: "sidebar-category"

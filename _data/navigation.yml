@@ -1,7 +1,11 @@
 # main links
 main:
+  - title: "Home"
+    url: "/"
   - title: "About"
     url: /about/
+  - title: "Categories"
+    url: /categories/
 
 #사이드바 카테고리 추가
 sidebar-category:

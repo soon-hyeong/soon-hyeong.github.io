@@ -2,8 +2,6 @@
 title: "java"
 layout: archive
 permalink: /java
-# sidebar:
-#     nav: "sidebar-category"
 ---
 
 

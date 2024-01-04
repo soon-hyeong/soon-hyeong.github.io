@@ -2,8 +2,6 @@
 title: "etc"
 layout: archive
 permalink: /etc
-sidebar:
-    nav: "sidebar-category"
 ---
 
 
