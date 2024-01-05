@@ -284,7 +284,7 @@
           
           
             
-              <li><a href="/categories/#java">java (0)</a></li>
+              <li><a href="/categories/#java">java (1)</a></li>
             
           
         </ul>
@@ -301,7 +301,7 @@
           
           
             
-              <li><a href="/categories/#etc">etc (2)</a></li>
+              <li><a href="/categories/#etc">etc (0)</a></li>
             
           
         </ul>
@@ -338,41 +338,9 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/etc/test3/</loc>
+      <loc>http://localhost:4000/java/java-new-String/</loc>
       
         <lastmod>2023-01-05T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>daily</changefreq>
-      
-
-      
-        <priority>1.0</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/etc/test2/</loc>
-      
-        <lastmod>2023-01-05T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>daily</changefreq>
-      
-
-      
-        <priority>1.0</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/test/test-test-test/</loc>
-      
-        <lastmod>2023-01-03T00:00:00+09:00</lastmod>
       
 
       
