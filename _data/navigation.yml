@@ -18,6 +18,6 @@ sidebar-category:
   - title: "Others"
     children:
       - title: "Blog"
-        url: "/categories/#Blog"
+        url: "/categories/#blog"
       - title: "etc"
         url:  "/categories/#etc"
