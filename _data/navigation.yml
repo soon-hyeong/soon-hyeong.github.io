@@ -17,5 +17,7 @@ sidebar-category:
         url: "/categories/#java"
   - title: "Others"
     children:
+      - title: "Blog"
+        url: "/categories/#Blog"
       - title: "etc"
         url:  "/categories/#etc"
