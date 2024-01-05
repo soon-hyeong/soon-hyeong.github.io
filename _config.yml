@@ -99,7 +99,7 @@ analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "G-0FW4QRDRYZ"
-    anonymize_ip         : false # true, false (default)
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
@@ -208,6 +208,11 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  #코드블럭 줄 숫자 표시
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 
 # Sass/SCSS
