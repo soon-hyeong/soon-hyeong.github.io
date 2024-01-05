@@ -22,7 +22,7 @@ sitemap:
 ### 다 필요 없고 코드나 보여주셈
 말이 길었다. 전체 코드는 아래와 같다. _include폴더에 nav_list파일에 원래 내용을 지우고, 복사 붙여넣기 하면 된다.
 {% raw %}
-```python
+```
 {% assign navigation = site.data.navigation[include.nav] %}
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
@@ -63,7 +63,7 @@ sitemap:
 **원본**
 
 {% raw %}
-```python
+```
           {% for child in nav.children %}
             <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
           {% endfor %}
@@ -73,7 +73,7 @@ sitemap:
 **바뀐 부분**
 
 {% raw %}
-```python
+```
           {% for child in nav.children %}
             {% assign category = site.categories.[child.title] | where_exp: "item", "item.hidden != true" %}
             {%if category.size == null %}
