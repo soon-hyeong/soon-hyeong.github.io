@@ -21,7 +21,7 @@ sitemap:
 
 ### 다 필요 없고 코드나 보여주셈
 말이 길었다. 전체 코드는 아래와 같다. _include폴더에 nav_list파일에 원래 내용을 지우고, 복사 붙여넣기 하면 된다.
-
+{% raw %}
 ```python
 {% assign navigation = site.data.navigation[include.nav] %}
 <nav class="nav__list">
@@ -54,23 +54,28 @@ sitemap:
   </ul>
 </nav>
 ```
+{% endraw %}
+
 
 ### 약간의 설명
 원래 코드에서 바뀐 부분은 아래쪽의 for문 안이다.
 
 **원본**
 
+{% raw %}
 ```python
           {% for child in nav.children %}
             <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
           {% endfor %}
 ```
+{% endraw %}
 
 **바뀐 부분**
 
+{% raw %}
 ```python
           {% for child in nav.children %}
-          {% assign category = site.categories.[child.title] | where_exp: "item", "item.hidden != true" %}
+            {% assign category = site.categories.[child.title] | where_exp: "item", "item.hidden != true" %}
             {%if category.size == null %}
               <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} (0)</a></li>
             {% else %}
@@ -78,6 +83,7 @@ sitemap:
             {% endif %}
           {% endfor %}
 ```
+{% endraw %}
 각각의 카테고리를 찾은 뒤, if, else문을 사용하여 포스트가 아직 올라오지 않은 카테고리에는 0이 추가되고, 글이 있는 카테고리에는 포스트의 갯수를 추가해주었다. 
 
 (여러 시도를 통하여 변수를 수정하다가 만든 코드라 문제가 있을 수 있습니다. 문제가 있다면 저도 알려주시기를 부탁드립니다.)
