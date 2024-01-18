@@ -10,10 +10,4 @@ var store = [{
         "tags": ["Blog","jekyll","minimal mistake","sidebar navigation","sidebar navigation 포스팅 수"],
         "url": "/blog/blog-nav-list-post-number/",
         "teaser": null
-      },{
-        "title": "Java Lang Package",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "/java-lang-package/",
-        "teaser": null
       }]
