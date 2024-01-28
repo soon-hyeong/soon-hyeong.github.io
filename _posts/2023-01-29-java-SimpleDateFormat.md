@@ -1,9 +1,21 @@
-` ⚠ 이 글은 '자바의 정석'과 다른 인터넷의 글들을 참고하여 작성되었습니다 ⚠`
+---
+title: "JAVA - SimpleDateFormat"
+categories: 
+  - java
+tags:
+  - java
+  - formatting class
+  - SimpleDateFormat
+sitemap:
+  changefreq: daily
+  priority : 1.0
+---
 ## SimpleDateFormat
 * Date와 Calendar만으로 날짜 데이터를 원하는 형태로 다양하게 출력하는 것은 불편하다.
 * SimpleDateFormat을 사용하면 날짜 데이터를 원하는 형태로 다양하게 출력할 수 있다.
 
 ### SimpleDateFormat의 패턴에 사용되는 기호
+
 기호|의미|보기
 -|-|-
 G|연대(BC, AD)|AD
@@ -42,3 +54,4 @@ System.out.println(result);
 ```
 2024-01-20
 ```
+` ⚠ 이 글은 '자바의 정석'과 다른 인터넷의 글들을 참고하여 작성되었습니다 ⚠`
