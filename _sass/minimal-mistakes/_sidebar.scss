@@ -16,6 +16,7 @@
   //   transform: translate3d(0, 0, 0);
   // }
 
+  border: 2px solid red;
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
@@ -41,7 +42,6 @@
   }
 
   > * {
-    // border: 2px solid;
     width: 80%;
     margin-top: 2.5em;
     margin-bottom: 1em;
@@ -124,9 +124,8 @@
    ========================================================================== */
 .author__avatar {
   display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  height: 36px;
+  vertical-align: middle;
+  width: 10%;
 
   @include breakpoint($large) {
     display: block;
@@ -146,11 +145,12 @@
 }
 
 .author__content {
+  border: 2px solid red;
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
-  padding-right: 25px;
-  line-height: 1;
+  padding-right: 15px; //25px
+  // line-height: 1;
 
   @include breakpoint($large) {
     display: block;
