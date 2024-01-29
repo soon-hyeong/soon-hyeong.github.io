@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -98,14 +98,14 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-LM5JEG77WB"
+    tracking_id          : G-LM5JEG77WB
     anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
   name             : "주순형"
-  avatar           : #
+  avatar           : "/assets/images/computer_grandpa.webp"
   bio              : "개발자가 되고 싶삽싸리와용."
   location         :
   email            :
