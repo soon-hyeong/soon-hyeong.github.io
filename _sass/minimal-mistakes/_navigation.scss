@@ -340,12 +340,12 @@
 
 .nav__list {
   margin-bottom: 1.5em;
+  display:table-cell;//내가 추가함
 
   input[type="checkbox"],
   label {
     display: none;
   }
-
   @include breakpoint(max-width $large - 1px) {
     label {
       position:relative;
@@ -355,7 +355,7 @@
       background-color: #ffffff;
       font-size: $type-size-6;
       font-weight: bold;
-      border: 1px solid $light-gray;
+      border: 1px solid $border-color;
       border-radius: $border-radius;
       z-index: 20;
       -webkit-transition: 0.2s ease-out;
