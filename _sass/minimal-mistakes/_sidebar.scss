@@ -125,7 +125,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: middle;
-  width: 10%;
+  width: 20%;
 
   @include breakpoint($large) {
     display: block;
@@ -149,8 +149,8 @@
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
-  padding-right: 15px; //25px
-  // line-height: 1;
+  padding-right: 25px; //25px
+  line-height: 1;
 
   @include breakpoint($large) {
     display: block;
