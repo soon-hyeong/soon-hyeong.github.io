@@ -129,7 +129,7 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#000, $border-color, 25%);
+    border: 2px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
     &:hover {
@@ -161,7 +161,7 @@
 .page__comments + .pagination {
   margin-top: 2em;
   padding-top: 2em;
-  border-top: 1px solid $border-color;
+  border-top: 2px solid $border-color;
 }
 
 /*
@@ -490,13 +490,13 @@
 
 .nav__sub-title {
   display: block;
-  margin: 0.5rem 0;
-  padding: 0.25rem 0;
+  margin: 0.75rem 0 0 0; //0.5rem 0
+  //padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  //border-bottom: 1px solid $border-color;
 }
 
 /*
@@ -521,9 +521,9 @@
   }
 
   // Scrollspy marks toc items as .active when they are in focus
-  .active a {
-    @include yiq-contrasted($active-color);
-  }
+  // .active a {
+  //   @include yiq-contrasted($active-color);
+  // }
 }
 
 .toc__menu {

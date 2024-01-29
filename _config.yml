@@ -25,7 +25,7 @@ url                      : "https://soon-hyeong.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/soon-hyeong/soon-hyeong.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/computer.png"
 masthead_title           : "순형 기술 공부 블로그"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-LM5JEG77WB
+    tracking_id          : "G-LM5JEG77WB"
     anonymize_ip         : false # true, false (default)
 
 
