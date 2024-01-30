@@ -340,7 +340,7 @@
 
 .nav__list {
   margin-bottom: 1.5em;
-  // display:table-cell;//내가 추가함
+  display:table-cell;//추가했더니 위아래 간격이 줄었다?
 
   input[type="checkbox"],
   label {
@@ -424,7 +424,7 @@
 
     a {
       display: block;
-      padding: 0.25em 0;
+      // padding: 0.25em 0;
 
       @include breakpoint($large) {
         padding-top: 0.125em;
@@ -439,6 +439,7 @@
 }
 
 .nav__list .nav__items {
+  padding-left: 0.25rem; // 작은 화면에서 토글버튼 누르면 메뉴가 조금 오른쪽으로 들어가게
   margin: 0;
   font-size: 1.25rem;
 
@@ -481,7 +482,7 @@
   }
 }
 
-.nav__list{ //내가 추가함
+.nav__list{ //내가 추가함 넓은 화면에서 사이드 네비게이션바 위에 선 그음
     @include breakpoint($large) {
       border-top: 2px solid $border-color;
     }
