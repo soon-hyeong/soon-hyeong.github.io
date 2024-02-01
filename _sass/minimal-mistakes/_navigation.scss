@@ -485,9 +485,11 @@
 .nav__list{ //내가 추가함 넓은 화면에서 사이드 네비게이션바 위에 선 그음
     @include breakpoint($large) {
       border-top: 2px solid $border-color;
+      // padding: 30px 0;
     }
     @include breakpoint($x-large) {
       border-top: 2px solid $border-color;
+      // padding: 30px 0;
   }
 }
 
@@ -507,7 +509,7 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  //border-bottom: 1px solid $border-color;
+  // border-bottom: 1px solid $border-color;
 }
 
 /*
