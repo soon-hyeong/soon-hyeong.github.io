@@ -3,7 +3,7 @@ title: Blog - minimal mistake 사이드바 카테고리에 포스트 갯수 추�
 categories: 
   - Blog
 tags:
-  - Blog
+  - blog
   - jekyll
   - minimal mistake
   - sidebar navigation
